@@ -1,0 +1,471 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    color: #5c646e;
+    background-color: #e1e1e6;
+    font-family: Arial;
+}
+.headerCont{
+    width: 980px;
+    margin: 0 auto;
+    height: 72px;
+}
+.header{
+    width: 100%;
+    height: 72px;
+    background: linear-gradient(#373d42, #2b3034);
+    font-family: Arial;
+}
+.headerText{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #a5adb8;
+}
+.redText{
+    color: #ae4b5d;
+}
+.cherrySign{
+    color: #656f7a;
+    font-size: 12px;
+}
+.leftHeader{
+    width: 333px;
+    float: left;
+    padding-top: 18px;
+}
+.rightHeader{
+    float: right;
+    height: 72px;
+    margin-top: 16px;
+}
+.rightHeader input[type=text]{
+    width: 198px;
+    height: 32px;
+    border-radius: 7px;
+    border: 1px solid #875f66;
+    padding-left: 10px;
+    background: linear-gradient(#1c1e23, #24272d);
+}
+.rightHeader button{
+    width: 36px;
+    height: 34px;
+    border-radius: 7px;
+    border: none;
+    background-color: #ae4b5d;
+    margin-left: 10px;
+}
+.moreBut{
+    font-size: 12px;
+    color: #95161f;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+.searchImg{
+    position: relative;
+    top: 1px;
+    right: 1px;
+}
+.container{
+    height: 1311px;
+    width: 980px;
+    margin: 0 auto;
+}
+.slider{
+    background-image: url(../img/container-bg.png);
+    width: 980px;
+    height: 240px;
+    /* 44px */
+}
+.sliderText{
+    font-size: 30px;
+    font-weight: bold;
+}
+.blackText{
+    color: #282d33;
+    font-weight: bold;
+}
+.sliderContent{
+    color: #a5adb8;
+    padding-top: 44px;
+    padding-left: 41px;
+    font-family: Arial;
+}
+.secondPar{
+    margin-top: 18px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.sliderDescription{
+    font-size: 14px;
+    color: #d9dcdf;
+    margin-top: 8px;
+    font-weight: 100;
+}
+.menu{
+    height: 36px;
+    width: 100%;
+    background-color: #95161f;
+    font-family: Arial;
+}
+.menu ul{
+    float: right;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    margin-right: 20px;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 54px;
+    padding-top: 11px;
+}
+.nav{
+    height: 26px;
+    width: 100%;
+    background: #f3f3f3;
+    font-family: Arial;
+    font-size: 11px;
+}
+.nav a{
+    color: #95161f;
+    text-decoration: underline;
+
+}
+.navText{
+    position: relative;
+    left: 24px;
+    top: 7px;
+}/* 19 */
+.content{
+    height: 990px;
+    width: 957px;
+    background: white;
+    padding-top: 19px;
+    padding-left: 23px;
+    font-family: Arial;
+}
+.strip{
+    height: 8px;
+    width: 100%;
+    background-color: #ae4b5d;
+
+}
+.contact{
+    width: 212px;
+    height: 410px;
+    background: #f3f3f3;
+    border: 1px solid #dadde0;
+    text-align: center;
+}
+.contactTitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: #282d33;
+    margin: 18px 0 20px 14px;
+}
+.contact input{
+    width: 175px;
+    height: 31px;
+    border: 1px solid #fffcfc;
+    background-color: #e3e4e5;
+    border-radius: 4px;
+    color: #757575;
+    padding-left: 10px;
+    margin-bottom: 14px;
+}
+select{
+    width: 188px;
+    height: 31px;
+    border: 1px solid #a2a2a2;
+    background-color: #e3e4e5;
+    border-radius: 4px;
+    color: #757575;
+    padding-left: 10px;
+    margin-bottom: 14px;
+}
+.contact button{
+    width: 177px;
+    height: 46px;
+    border-radius: 0px;
+    border: 8px solid white;
+    text-align: center;
+    background: #ac222c;
+    color: white;
+    box-shadow: 0px 5px 5px rgb(179, 175, 175);
+}
+.leftSide{
+    width: 238px;
+    margin: 0;
+    float: left;
+}
+.rightSide{
+    display: inline;
+    float: right;
+    width: 698px;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #5c646e;
+    line-height: 20px;
+}
+h2{
+    color: #a5adb8;
+    font-size: 24px;
+    font-weight: bold;
+}
+.rightSide a{
+    color: #95161f;
+    text-decoration: underline;
+}
+.short{
+    width: 212px;
+    height: 175px;
+    display: inline;
+    float: left;
+    margin-top: 18px;
+}
+h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #282d33;   
+}
+.short img{
+    position: relative;
+    left: -4px;
+    top: 11px;
+}
+.lists{
+    width: 200px;
+    height: 20px;
+    position: relative;
+    top: 20px;
+    margin-bottom: 36px;
+}
+.photos{
+    height: 200px;
+    width: 100%;
+}
+.listsContent{
+    margin-top: 22px;
+    height: 216px;
+    width: 100%;
+}
+.firstList{
+    width: 225px;
+    display: inline;
+    float: left;
+    height: 218px;
+    margin-right: 19px;
+}
+.firstList li{
+    list-style-type: disc;
+    margin-left: 23px;
+}
+.ulSpan{
+    height: 14px;
+    background-color: #dedede;
+    border-radius: 3px;
+}
+.leftBottom{
+    margin-top: 27px;
+    width: 214px;
+}
+.leftBottomCont{
+    color: #5c646e;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 14px;
+}
+.secondList li{
+    list-style-type: none;
+}
+.secondList{
+    width: 225px;
+    display: inline;
+    float: left;
+    height: 218px;
+
+}
+.disc li{
+    list-style-type: disc;
+    margin-left: 22px;
+}
+.thirdList{
+    width: 225px;
+    display: inline;
+    float: left;
+    height: 218px;
+}
+.table1{
+    width: 696px;
+    height: 271px;
+    margin-top: 24px;
+}
+.table1 table{
+    width: 696px;
+    height: 271px;
+    border-collapse: collapse;
+    background-color: white;
+    color: #a5adb8;
+    font-size: 12px;
+}
+
+.tdTitle{
+    background-color: #9c4757;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.numbers{
+    width: 46px;
+    height: 32px;
+    text-align: center;
+    background-color: #282d33;
+}
+.noneNumber{
+    background-color: #9c4757;
+    width: 46px;
+    height: 32px;
+    text-align: center;
+    border-top-left-radius: 8px;
+}
+tr td{
+    border: 1px solid white;
+    vertical-align: middle;
+}
+.usText{
+    padding-left: 13px;
+    background-color: #282d33;
+}
+.bottomLeftRadius{
+    border-bottom-left-radius: 8px;
+}
+.topRightRadius{
+    border-top-right-radius: 8px;
+}
+.bottomRightRadius{
+    border-bottom-right-radius: 8px;
+}
+.underlinedTd{
+    color: #d08b98;
+    text-decoration: underline;
+}
+.footer{
+    width: 100%;
+    height: 237px;
+    background-image: url(../img/footer.png);
+}
+.footerContent{
+    width: 980px;
+    margin: 0 auto 0 auto;
+    height: 185px;
+    padding-top: 40px;
+    height: 190px;
+}
+.firstFooter{
+    width: 271px;
+    height: 136px;
+    margin-right: 78px;
+    display: inline-block;
+}
+.secondFooter{
+    width: 271px;
+    display: inline-block;
+    height: 190px;
+    vertical-align: top;
+    margin-right: 78px;
+}
+.thirdFooter{
+    width: 271px;
+    height: 190px;
+    float: right;
+}
+h4{
+    color: #a5adb8;
+    font-size: 18px;
+}
+.firstInfo{
+    color: #85898f;
+    font-size: 12px;
+    margin-top: 10px;
+}
+li.firstInfo{
+    background: url(../img/clock.png) no-repeat;
+    height: 16px;
+    padding-left: 25px;
+    background-position: 5px;
+}
+.secondListLi{
+    list-style-type: disc;
+    color: #9c4757;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.secondListText{
+    color: #85898f;
+}
+.callUsText{
+    color: #99a1aa;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 4px;
+    position: relative;
+    top: 15px;
+}
+.thirdListLi{
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: #85898f;
+}
+.thirdList ol{
+    list-style-type: decimal;
+    margin-left: 15px;
+}
